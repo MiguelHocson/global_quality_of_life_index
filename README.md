@@ -1,0 +1,1 @@
+# global_quality_of_life_index
