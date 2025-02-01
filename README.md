@@ -162,7 +162,7 @@ The dashboard offers an interactive experience with key quality-of-life metrics 
 
 - GIF displaying all of the dashboard's functionalities
 
-![GlobalQualityofLifeIndex_-_gif_2](assets/images/GlobalQualityofLifeIndex_-_gif_2.gif)
+![GlobalQualityofLifeIndex_gif](assets/images/GlobalQualityofLifeIndex_gif.gif)
 
 
 
