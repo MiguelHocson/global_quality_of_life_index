@@ -90,5 +90,30 @@ What was the step-by-step approach to executing this project from start to finis
 8.	Publish the data to GitHub Pages
 
 
+## Data Extraction
+
+This was the first stage, where the dataset was extracted and loaded using Power Query Editor.
+
+![Data_extraction](assets/images/Data_extraction.png)
+
+
+
+## Data Exploration, Cleaning and Transformation
+
+This was the stage where data was scanned for any errors, inconsistencies, blanks, duplicates, and unusual characters. Below were the initial observations on the dataset:
+
+1. First, column profiling was changed to based on entire data set.
+
+![column_profiling](assets/images/column_profiling.png)
+
+2. Dataset was examined for any duplicates. No duplicates were found.
+   
+3. Data types were then checked through column header types, as well as if there are no blanks, NULL values using the column quality, distribution and profile features of power query. 
+
+•	Below data shows that the data type for property price to income value and quality of life value are both incorrect at “Text” and should be “Decimal Number”.
+
+![datatype_change](assets/images/datatype_change.png)
+
+
 
 
