@@ -10,14 +10,14 @@ I chose this project as my second project due to my passion for travel and plans
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
+- [Design](#design)
 - [Development](#development)
   - [Process Outline](#process-outline)
-  - [Data Exploration](#data-exploration)
-  - [Data Cleaning, Transforming & Testing](#data-cleaning-transforming--testing)
+  - [Data Extraction](#data-extraction)
+  - [Data Exploration and Cleaning](#data-exploration-and-cleaning)
+  - [Data Transformation and Manipulation](#data-transformation-and-manipulation)
 - [Visualization](#visualization)
   - [Dashboard](#dashboard)
-  - [DAX Measures](#dax-measures)
-  - [DAX Columns](#dax-columns)
 - [Analysis & Findings](#analysis-and-findings)
 - [Recommendations](#recommendations)
 
@@ -200,6 +200,32 @@ The dashboard offers an interactive experience with key quality-of-life metrics 
 
 
 # Analysis & Findings
+
+1. The primary factors that significantly contribute to the Quality-of-Life score in each country include cost of living, safety, purchasing power, and healthcare. Countries classified within the "very high" and "high" categories consistently demonstrated strong performance across these metrics.
+
+2. Countries with higher safety ratings and better healthcare systems tend to experience a more positive quality-of-life assessment, as these factors are essential to the overall stability and well-being of residents.
+
+3. The top 10 countries in terms of overall quality of life are predominantly European, whereas the bottom 10 are primarily comprised of nations from Africa and South Asia.
+
+4. Higher living costs are often associated with greater purchasing power, as individuals in these regions typically earn more, allowing them to afford a higher standard of living despite the increased expenses. This relationship shows how wages and the cost of goods and services affect financial stability and quality of life.
+
+
+# Recommendations
+
+For Travelers & Expats
+
+1. Countries like Luxembourg, Oman, and the Netherlands offer excellent living conditions, high safety, and strong healthcare systems, making them ideal for relocation.
+2. Travelers should exercise caution in countries with low safety scores and weaker healthcare systems, particularly in some African and South Asian regions.
+
+For Business Leaders & Investors
+
+1. Companies should target countries with strong purchasing power for high-value product and service offerings.
+2. While some countries rank lower, they offer cost-effective labor and investment opportunities, particularly in growing economies with rising middle-class populations.
+
+For Governments & Other Organizations
+
+1. Countries with low safety scores should prioritize crime reduction, emergency response systems, and public safety reforms. Additionally, nations with high pollution levels should implement stricter environmental policies and invest in cleaner energy solutions to enhance air quality and overall well-being.
+2. Organizations should focus on improving healthcare access in lower-ranking countries where healthcare scores are below average. 
 
 
 
