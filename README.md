@@ -156,9 +156,9 @@ This was stage where additional queries were created using the dataset. These qu
 Rank: 
   - Duplicated the original query and left the country column and a specific key metric numeric column, which is then sorted in ascending order. 
   - Created an index column starting from 1
-  - Using the index column, created a custom column to create a rank for each country.
+  - Using the index column, created a new custom column to create a rank for each country.
 
-    ![rankquery](assets/images/rankquery.png)
+    ![rank_query](assets/images/rank_query.png)
 
 Sort:
   - Duplicated the rank query and left a specific key metric category column.
