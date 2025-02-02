@@ -1,8 +1,8 @@
-# Data Project: Global Quality of Life Index
+# Power BI Data Project: Global Quality of Life Index
 
 # Overview
 
-I chose this project as my second project due to my passion for travel and plans to relocate in the future. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. The project involves data exploration, cleaning, transformation, and manipulation, showcasing my skills in using Power Query in Excel, along with data visualization in Power BI. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
+I chose this project as my second project due to my passion for travel and plans to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
 
 
 # Table of Contents
@@ -25,7 +25,7 @@ I chose this project as my second project due to my passion for travel and plans
 
 # Objective
 
-To analyze global quality of life trends and disparities, offering insights for policymakers and researchers to guide development and resource allocation. The analysis will also help travelers and expats make informed decisions on relocation and travel, highlighting factors like safety, healthcare, and cost of living.
+To analyze global quality of life trends and disparities, offering insights for policymakers and researchers to guide development and resource allocation. This is also to help travelers and expats make informed decisions on relocation and travel, highlighting factors like safety, healthcare, and cost of living.
 
 
 # Data Source
@@ -80,25 +80,22 @@ The [data](https://www.kaggle.com/datasets/ahmedmohamed2003/quality-of-life-for-
 
 What was the step-by-step approach to executing this project from start to finish?
 
-1.	Extract data and load it to Power Query in Excel
+1.	Extract data and load it to Power Query in Power BI
 2.	Explore, clean and transform the data through Power Query Editor
-3.	Load the data into Excel tables
-4.	Load the data into Power BI
-5.	Create visualizations in Power BI
-6.	Provide the analysis and recommendation based on the findings
-7.	Write the documentation process in GitHub
-8.	Publish the data to GitHub Pages
+3.	Create visualizations in Power BI
+4.	Provide the analysis and recommendation based on the findings
+5.	Write the documentation process in GitHub
+6.	Publish the data to GitHub Pages
 
 
 ## Data Extraction
 
-This was the first stage, where the dataset was extracted and loaded using Power Query Editor in Excel. However, note that this could also be loaded and extracted directly to Power BI. 
+This was the first stage, where the dataset was extracted and loaded using Power Query Editor in PowerBI. 
 
-![Data_extraction](assets/images/Data_extraction.png)
+![data_extraction](assets/images/data_extraction.png)
 
 
-
-## Data Exploration, Cleaning and Transformation
+## Data Exploration and Cleaning
 
 This was the stage where data was scanned for any errors, inconsistencies, blanks, duplicates, and unusual characters. Below were the initial observations on the dataset:
 
@@ -110,11 +107,13 @@ This was the stage where data was scanned for any errors, inconsistencies, blank
    
 3. Data types were then checked through column header types, as well as if there are no blanks, NULL values using the column quality, distribution and profile features of power query. 
 
-- Below data shows that the data type for property price to income value and quality of life value are both incorrect at “Text” and should be “Decimal Number”.
+- The snapshot below shows that the data types for both the property price-to-income value and the quality of life value are incorrectly set to "Text" and should be changed to "Decimal Number."
 
 ![datatype_change](assets/images/datatype_change.png)
 
 4. Extracted the value for the “Quality of Life Value” column in between delimiters and replaced NULL values with 0.
+
+![QOL_zero](assets/images/QOL_zero.png)
 
 5. Extracted the text between the delimiters in each category column.
 
@@ -124,19 +123,53 @@ This was the stage where data was scanned for any errors, inconsistencies, blank
 
 
 
+## Data Transformation and Manipulation
 
-## Data Loading to Excel Tables
+This was stage where additional queries were created using the dataset. These queries would be used as additional data and support for the data visuals.
 
-Data was closed in Power Query Editor and loaded as a table in excel. 
+1. Created an additional query "Average per Metric" by duplicating the original query. This query is to get the total average value per quality of life metric.
 
-![data_loading](assets/images/data_loading.png)
+![averagepermetric](assets/images/averagepermetric.png)
 
+  - Removed columns other than those containing the numeric values.
+    
+    ![removedcolumns](assets/images/removedcolumns.png)
+    
+  - Unpivoted the columns
+
+    ![unpivot](assets/images/unpivot.png)
+    
+  - Aggregated the columns using the GROUP BY function to get the total average per key metric
+
+    ![groupby](assets/images/groupby.png)
+    ![groupby2](assets/images/groupby2.png)
+    
+  - Pivoted back the columns
+    
+    [pivoted](assets/images/pivoted.png)
+    
+
+2. Created multiple set of additional queries to get the ranking of countries per key metric and to sort the categories for the visuals.
+
+[multiplequeries](assets/images/multiplequeries.png)
+
+Rank: 
+  - Duplicated the original query and left the country column and a specific key metric numeric column, which is then sorted in ascending order. 
+  - Created an index column starting from 1
+  - Using the index column, created a custom column to create a rank for each country.
+
+    [rankquery](assets/images/rankquery.png)
+
+Sort:
+  - Duplicated the rank query and left a specific key metric category column.
+  - Removed duplicate rows.
+  - Created an index column starting from 1, then renamed to "Sort"
+
+    [sortquery](assets/images/sortquery.png)
 
 
 
 # Visualization
-
-Note: The initial plan was to create the dashboard using Excel charts; however, due to limitations in the flexibility of the map visual in Excel, the data was instead loaded into Power BI for enhanced visualization capabilities.
 
 ## Dashboard
 
@@ -163,6 +196,10 @@ The dashboard offers an interactive experience with key quality-of-life metrics 
 - GIF displaying all of the dashboard's functionalities
 
 ![GlobalQualityofLifeIndex_gif](assets/images/GlobalQualityofLifeIndex_gif.gif)
+
+
+
+# Analysis & Findings
 
 
 
