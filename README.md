@@ -149,21 +149,21 @@ At this stage, additional queries were generated from the dataset, which would s
     ![pivoted](assets/images/pivoted.png)
     
 
-2. Created multiple set of additional queries to get the ranking of countries per key metric and to sort the categories for the visuals.
+2. Created multiple sets of additional queries to get the ranking of countries per key metric and to sort the categories for the visuals.
 
 ![multiplequeries](assets/images/multiplequeries.png)
 
 Rank: 
-  - Duplicated the original query and left the country column and a specific key metric numeric column, which is then sorted in ascending order. 
-  - Created an index column starting from 1
+  - The original query was duplicated, retaining the country column and a specific key metric numeric column, which was then sorted in ascending order.
+  - Created an index column starting from 1.
   - Using the index column, created a new custom column to create a rank for each country.
 
     ![rank_query](assets/images/rank_query.png)
 
 Sort:
-  - Duplicated the rank query and left a specific key metric category column.
+  - Duplicated the rank query and retained a specific key metric category column.
   - Removed duplicate rows.
-  - Created an index column starting from 1, then renamed to "Sort"
+  - Created an index column starting from 1, then renamed it to "Sort".
 
     ![sortquery](assets/images/sortquery.png)
 
