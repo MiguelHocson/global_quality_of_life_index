@@ -125,7 +125,7 @@ This was the stage where data was scanned for any errors, inconsistencies, blank
 
 ## Data Transformation and Manipulation
 
-This was the stage where additional queries were created using the dataset. These queries would be used as additional data and support for the data visuals.
+At this stage, additional queries were generated from the dataset, which would serve as supplementary data to support the visualizations.
 
 1. Created an additional query "Average per Metric" by duplicating the original query. This query is to get the total average value per quality of life metric.
 
