@@ -97,7 +97,7 @@ This was the first stage, where the dataset was extracted and loaded using Power
 
 ## Data Exploration and Cleaning
 
-This was the stage where data was scanned for any errors, inconsistencies, blanks, duplicates, and unusual characters. Below were the initial observations on the dataset:
+This was the stage where data was scanned for any errors, inconsistencies, blanks, duplicates, and unusual characters. 
 
 1. First, column profiling was changed to based on entire data set.
 
