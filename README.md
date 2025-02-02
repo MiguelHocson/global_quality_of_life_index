@@ -25,7 +25,7 @@ I chose this project as my second project due to my passion for travel and plans
 
 # Objective
 
-To analyze global quality of life trends and disparities, offering insights for policymakers and researchers to guide development and resource allocation. This is also to help travelers and expats make informed decisions on relocation and travel, highlighting factors like safety, healthcare, and cost of living.
+To provide a comprehensive, data-driven analysis of quality of life across different countries and help travelers, expats, government institutions, and organizations make informed decisions about relocation, policy-making, and investment opportunities by visualizing global trends and rankings.
 
 
 # Data Source
