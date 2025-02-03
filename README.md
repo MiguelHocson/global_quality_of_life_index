@@ -179,13 +179,9 @@ The dashboard offers an interactive experience with key quality-of-life metrics 
 
 - Dashboard on Default under the Overall Quality Metric
 
-![Global_Quality_of_Life_Index_-_Dashboard](assets/images/Global_Quality_of_Life_Index_-_Dashboard.png)
-
 ![overalldefault](assets/images/overalldefault.png)
 
 - Dashboard under the Overall Quality Metric filtered on a specific country
-
-![Global_Quality_of_Life_Index_-_Dashboard_2](assets/images/Global_Quality_of_Life_Index_-_Dashboard_2.png)
 
 ![overallfiltered](assets/images/overallfiltered.png)
 
