@@ -177,12 +177,12 @@ What does the dashboard looks like?
 
 The dashboard offers an interactive experience with key quality-of-life metrics on the left, a dynamic filled map in the center that lets users filter by country and category, and bar charts on the right showing the top and bottom 10 countries per category. Navigation buttons at the top make it easy for users to explore detailed dashboards for each key metric.
 
-- Dashboard on Default under the Overall Quality Metric
+- Default Dashboard under the Overall Quality Metric
 
 ![overalldefault](assets/images/overalldefault.png)
 
-- Dashboard under the Overall Quality Metric filtered on a specific country
-
+- Filtered Dashboard under the Overall Quality Metric
+  
 ![overallfiltered](assets/images/overallfiltered.png)
 
 - Filled Map with Hover functionality
