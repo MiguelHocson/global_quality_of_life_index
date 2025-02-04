@@ -2,7 +2,7 @@
 
 # Overview
 
-I chose this project due to my passion for travel and intentions to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. While this analysis could also be performed using Excel Power Query and Power Pivot, I chose to utilize Power BI's tools for greater visualization flexibility and interactivity. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
+I chose this project due to my passion for travel and intentions to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along with data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. While this analysis could also be performed using Excel Power Query and Power Pivot, I chose to utilize Power BI's tools for greater visualization flexibility and interactivity. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
 
 
 # Table of Contents
