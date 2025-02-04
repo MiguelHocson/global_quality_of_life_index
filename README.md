@@ -16,6 +16,7 @@ I chose this project as my second project due to my passion for travel and plans
   - [Data Extraction](#data-extraction)
   - [Data Exploration and Cleaning](#data-exploration-and-cleaning)
   - [Data Transformation and Manipulation](#data-transformation-and-manipulation)
+  - [Data Transformation and Manipulation](#data-transformation-and-manipulation)
 - [Visualization](#visualization)
   - [Dashboard](#dashboard)
 - [Analysis & Findings](#analysis-and-findings)
@@ -168,6 +169,10 @@ Sort:
     ![sortquery](assets/images/sortquery.png)
 
 
+## Data Modelling
+
+![data_modelling](assets/images/data_modelling.png)
+
 
 # Visualization
 
@@ -193,9 +198,14 @@ The dashboard offers an interactive experience with key quality-of-life metrics 
 
 ![Buttons_Hover_1](assets/images/Buttons_Hover_1.png)
 
+- Scorecards with Hover Functionality
+
+![Scorehover1](assets/images/Scorehover1.png)
+![scorehover2](assets/images/scorehover2.png)
+
 - GIF displaying all of the dashboard's functionalities
 
-![GlobalQualityofLifeIndex_gif](assets/images/GlobalQualityofLifeIndex_gif.gif)
+![GQLI_gif](assets/images/GQLI_gif.gif)
 
 
 
