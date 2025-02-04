@@ -2,7 +2,7 @@
 
 # Overview
 
-I chose this project as my second project due to my passion for travel and plans to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
+I chose this project due to my passion for travel and plans to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
 
 
 # Table of Contents
@@ -16,7 +16,7 @@ I chose this project as my second project due to my passion for travel and plans
   - [Data Extraction](#data-extraction)
   - [Data Exploration and Cleaning](#data-exploration-and-cleaning)
   - [Data Transformation and Manipulation](#data-transformation-and-manipulation)
-  - [Data Transformation and Manipulation](#data-transformation-and-manipulation)
+  - [Data Modeling](#data-modeling)
 - [Visualization](#visualization)
   - [Dashboard](#dashboard)
 - [Analysis & Findings](#analysis-and-findings)
@@ -169,7 +169,9 @@ Sort:
     ![sortquery](assets/images/sortquery.png)
 
 
-## Data Modelling
+## Data Modeling
+
+Establishing relationships between queries:
 
 ![data_modelling](assets/images/data_modelling.png)
 
