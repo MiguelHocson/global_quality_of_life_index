@@ -1,8 +1,8 @@
-# Data Project: Global Quality of Life Index
+Global Quality of Life Index
 
 # Overview
 
-I chose this project due to my passion for travel and intentions to relocate in the future. The project involves data exploration, cleaning, transformation, and manipulation, along with data visualization that demonstrates my skills in using Power Query and visualization tools within Power BI. While this analysis could also be performed using Excel Power Query and Power Pivot, I chose to utilize Power BI's tools for greater visualization flexibility and interactivity. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries. Sourced from Kaggle, the dataset includes quality-of-life metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
+I chose this project due to my passion for travel and intentions to relocate in the future. The project involves data ETL process and visualization demonstrating my skills in using Power Query and visualization tools within Power BI. While this analysis could also be performed using Excel Power Query and Power Pivot, I chose to utilize Power BI's tools for greater visualization flexibility and interactivity. The dashboard aims to help travelers, expats, institutions, and organizations analyze and assess quality of life across countries through various metrics such as purchasing power, safety, healthcare, cost of living, traffic, pollution, and overall quality of life, offering both numerical scores and descriptive categories for a comprehensive analysis.
 
 
 # Table of Contents
@@ -100,27 +100,27 @@ This was the first stage, where the dataset was extracted and loaded using Power
 
 This was the stage where data was scanned for any errors, inconsistencies, blanks, duplicates, and unusual characters. 
 
-1. First, column profiling was changed to based on entire data set.
+  1. First, column profiling was changed to based on entire data set.
 
 ![column_profiling](assets/images/column_profiling.png)
 
-2. Dataset was examined for any duplicates. No duplicates were found.
+  2. Dataset was examined for any duplicates. No duplicates were found.
    
-3. Data types were then checked through column header types, as well as if there are no blanks, NULL values using the column quality, distribution and profile features of power query. 
+  3. Data types were then checked through column header types, as well as if there are no blanks, NULL values using the column quality, distribution and profile features of power query. 
 
-- The snapshot below shows that the data types for both the property price-to-income value and the quality of life value are incorrectly set to "Text" and should be changed to "Decimal Number."
+      - The snapshot below shows that the data types for both the property price-to-income value and the quality of life value are incorrectly set to "Text" and should be changed to "Decimal Number."
 
 ![datatype_change](assets/images/datatype_change.png)
 
-4. Extracted the value for the “Quality of Life Value” column in between delimiters and replaced NULL values with 0.
+  4. Extracted the value for the “Quality of Life Value” column in between delimiters and replaced NULL values with 0.
 
 ![QOL_zero](assets/images/QOL_zero.png)
 
-5. Extracted the text between the delimiters in each category column.
+  5. Extracted the text between the delimiters in each category column.
 
 ![between_delimiter](assets/images/between_delimiter.png)
 
-6. Filtered out zero and “None” values as they represent missing or incomplete information that could lead to inaccurate analysis and visualizations if included.
+  6. Filtered out zero and “None” values as they represent missing or incomplete information that could lead to inaccurate analysis and visualizations if included.
 
 
 
